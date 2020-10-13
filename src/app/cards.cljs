@@ -8,7 +8,9 @@
             [devcards.core :refer [start-devcard-ui!]]
             ["jsdom-global" :as jsdom-global]
                                         ; Import all namespaces with cards here to load them.
-            [app.hello-cards]))
+            [app.hello-cards]
+            [app.dnd-cards]
+            ))
 
                                         ; Set jsdom to mock a dom environment for node testing.
 (jsdom-global)
