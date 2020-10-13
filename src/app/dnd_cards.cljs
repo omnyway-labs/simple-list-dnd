@@ -1,6 +1,5 @@
 (ns app.dnd-cards
-  (:require [reagent.core :as r]
-            [devcards.core :as dc :refer [defcard deftest]]
+  (:require [devcards.core :as dc :refer [defcard]]
             [app.simple-list :as sl]))
 
 (defcard

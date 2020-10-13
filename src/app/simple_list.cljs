@@ -7,7 +7,7 @@
   (try
     (r/adapt-react-class component)
     (catch js/Object e
-      (prn e.message))))
+      (prn (.-message e)))))
 
 (def drag-drop-context (adapt DragDropContext))
 (def droppable (adapt Droppable))
