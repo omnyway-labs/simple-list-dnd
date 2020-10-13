@@ -1,14 +1,14 @@
 ## Example Clojurescript / Reagent use of React Beautiful Drag and Drop
 
-Demonstrates a clojurescript implementation of a Simple List with React Drag and Drop.
+Demonstrates a clojurescript implementation of a Simple List with [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd).
 
 Pretty much a direct translation of the [JS/React Simple List Example](https://codesandbox.io/s/k260nyxq9v)
 
 This first pass is mainly to get something to work in Clojurescript.
 It is not (yet) implemented in a more Clojurescript style but mostly a literal
-translation of the javascript into Clojurescript.
+translation of the Javascript into Clojurescript.
 
-The example runs inside a Devcard.
+The example runs inside a Devcard or standalone.
 
 
 ## Available Scripts
