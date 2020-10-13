@@ -21,6 +21,14 @@ Runs the interactive live development enviroment.<br>
 
 This environment uses [Devcards](https://github.com/bhauman/devcards)
 
+### `yarn start`
+
+Runs the app in development mode.<br>
+Pretty much just the DND component right now, but without devcards
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
 ### `yarn lint` and `yarn format`
 
 `yarn lint` checks the code for known bad code patterns using [clj-kondo](https://github.com/borkdude/clj-kondo).
@@ -37,4 +45,18 @@ Consider [code-splitting](https://code.thheller.com/blog/shadow-cljs/2019/03/03/
 Starts a Shadow CLJS background server.<br>
 This will speed up starting time for other commands that use Shadow CLJS.
 
+## General info
+
 This project was bootstrapped with [Create CLJS App](https://github.com/filipesilva/create-cljs-app).
+
+The app uses [Reagent](https://reagent-project.github.io), a minimalistic interface between ClojureScript and React.<br>
+You can use existing npm React components directly via a [interop call](http://reagent-project.github.io/docs/master/InteropWithReact.html#creating-reagent-components-from-react-components).
+
+Builds use [Shadow CLJS](https://github.com/thheller/shadow-cljs) for maximum compatibility with NPM libraries. You'll need a [Java SDK](https://adoptopenjdk.net/) (Version 8+, Hotspot) to use it. <br>
+You can [import npm libraries](https://shadow-cljs.github.io/docs/UsersGuide.html#js-deps) using Shadow CLJS. See the [user manual](https://shadow-cljs.github.io/docs/UsersGuide.html) for more information.
+
+## License
+
+Released under MIT License
+
+Copyright 2020 Robert Berger
